@@ -1,21 +1,6 @@
 ---
 name: SimulationWalkthrough
-description: >
-  Generate interactive simulation walkthrough content from source code, documentation,
-  or conceptual material. Produces step data, glossary, diagram stubs, landing page
-  content, and llms.txt generation script for a Vite + React + Tailwind walkthrough app.
-  Uses ~/gitrepos/10_webapps/how-llms-work/ as the reference template.
-
-  TRIGGERS: Use when:
-  - User asks to create an interactive walkthrough of code or a concept
-  - User wants to build a step-by-step simulation or explainer app
-  - User says "simulation walkthrough", "interactive walkthrough", "build a walkthrough",
-    "explain this code interactively", or "/SimulationWalkthrough"
-
-  DO NOT USE when:
-  - User wants a simple static documentation site → just write markdown
-  - User wants to convert a PPTX into a handout → use PPT2HandoutSkill
-  - User wants to generate learning materials from a transcript → use LearnWeaver
+description: "Generate simulation walkthrough content."
 ---
 
 # Simulation Walkthrough Skill
